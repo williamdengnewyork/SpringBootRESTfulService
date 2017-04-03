@@ -1,0 +1,5 @@
+stock\service\StockQuote.class
+stock\service\Application.class
+stock\service\GreetingController.class
+stock\service\Greeting.class
+stock\service\StockQuoteController.class

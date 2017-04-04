@@ -12,6 +12,12 @@ http://localhost:8090/getQuote?symbol=AAPL
 
 - Actuator Monitoring Endpoints
 
+    /health – Shows application health information (a simple ‘status’ when accessed over an unauthenticated connection or full message details when authenticated). It is not sensitive by default.
+    /info – Displays arbitrary application info. Not sensitive by default.
+    /metrics – Shows ‘metrics’ information for the current application. It is also sensitive by default.
+    /trace – Displays trace information (by default the last few HTTP requests).
+
+
 http://localhost:8090/manage/trace 
 
 http://localhost:8090/manage/heapdump

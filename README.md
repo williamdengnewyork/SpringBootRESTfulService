@@ -4,7 +4,6 @@
 ### **Rest Service for US stock quote**
 
 e.g.
-
 http://localhost:8090/getQuote?symbol=MSFT
 
 {"id":358464,"t":"MSFT","e":"NASDAQ","l":65.86,"l_fix":65.86,"l_cur":65.86,"s":"0","ltt":"4:00PM
@@ -18,6 +17,7 @@ EDT","lt":"Apr 3, 4:00PM
 EDT","lt_dts":"2017-04-03T16:00:01Z","c":"+0.04","c_fix":"0.04","cp":"0.03","cp_fix":"0.03","ccol":"chg","pcls_fix":"143.66"}
 
  
+http://localhost:8090/greeting?name=mike
 
 ### **Actuator Monitoring Endpoints**
 
@@ -67,3 +67,10 @@ Spring Boot
 Sprint Actuator Monitoring
 
 Jackson
+
+* Call REST Service with Security
+
+Using default security password: e482e82e-1115-4fc4-86e4-bdcc432da039
+curl user:e482e82e-1115-4fc4-86e4-bdcc432da039@localhost:8080/service/echo/hello
+
+http://admin:admin@localhost:8090/getQuote?symbol=MSFT

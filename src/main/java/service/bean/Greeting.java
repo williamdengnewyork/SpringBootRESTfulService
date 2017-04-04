@@ -1,4 +1,4 @@
-package stock.service;
+package service.bean;
 
 public class Greeting {
 

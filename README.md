@@ -58,6 +58,10 @@ http://localhost:8090/manage/mappings
 
 http://localhost:8090/manage/autoconfig
 
+
+### ** Spring WebSecurity Configurer Adapter**
+ Custom security for REST endpoints
+
  
 ### **Technology Stacks**
 

@@ -59,8 +59,7 @@ http://localhost:8090/manage/mappings
 http://localhost:8090/manage/autoconfig
 
  
-
-### **Tech Stack: **
+### **Technology Stacks**
 
 Spring Boot
 
@@ -68,9 +67,4 @@ Sprint Actuator Monitoring
 
 Jackson
 
-* Call REST Service with Security
 
-Using default security password: e482e82e-1115-4fc4-86e4-bdcc432da039
-curl user:e482e82e-1115-4fc4-86e4-bdcc432da039@localhost:8080/service/echo/hello
-
-http://admin:admin@localhost:8090/getQuote?symbol=MSFT

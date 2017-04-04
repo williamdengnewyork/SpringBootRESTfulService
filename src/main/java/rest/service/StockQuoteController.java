@@ -35,7 +35,7 @@ public class StockQuoteController {
 			e.printStackTrace();
 		}    	
     	//System.out.println("Google finance " + response.substring(5, response.length()-3) );    	
-    	System.out.println("Google finance: " + quote.toString() );    	
+    	System.out.println("Google finance:: " + quote.toString() );    	
     	return quote;
     }
 
